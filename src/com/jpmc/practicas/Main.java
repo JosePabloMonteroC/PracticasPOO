@@ -13,6 +13,8 @@ public class Main {
 		pa1.realizarActividad();
 		System.out.println("La actividad para el Tercer perro es: ");
 		p1.realizarActividad();
+		System.out.println("Core Dumped");
+
 
 	}
 
