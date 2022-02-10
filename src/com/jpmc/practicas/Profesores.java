@@ -1,6 +1,6 @@
 package com.jpmc.practicas;
 
-public class Profesores {
+public class Profesores{
 
 	private String nombre;
 	private String apellido;

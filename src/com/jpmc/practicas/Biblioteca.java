@@ -6,8 +6,8 @@ public class Biblioteca {
 	private String ubicacion;
 	private int numAlumnos = 0;
 	private int numProfesores = 0;
-	private Alumnos alumnos[];
-	private Profesores profesores[];
+	public Alumnos alumnos[];
+	public Profesores profesores[];
 
 	Biblioteca(String nombre, String ubicacion, int numAlumnos, int numProfesores) {
 		this.nombre = nombre;
@@ -36,7 +36,9 @@ public class Biblioteca {
 		}
 		
 		for(int j = 0; j <=numProfesores; j ++) {
-			System.out.println("Profesor #")
+			System.out.println("Profesor #"+(j+1)+":\nNombre: "+profesores[j].getNombre()+"\nApellido: "+profesores[j].getApellido()+"\nMateria: "+
+		profesores[j].getMateria()+"\nEdad: "+profesores[j].getEdad()+"\nTiene rentados los libros:\n");
+			profesores[j].datosLibros();
 		}
 	}
 
