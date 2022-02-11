@@ -6,7 +6,7 @@ public class Profesores{
 	private String apellido;
 	private String materia;
 	private int edad;
-	String libros[];
+	String[] libros = new String[6];
 	private int cantidadLibros = 0;
 
 	Profesores(String nombre, String apellido,String materia, int edad){
@@ -26,8 +26,8 @@ public class Profesores{
 		}
 	}
 	public void datosLibros() {
-		for(int i = 0; i <= cantidadLibros; i++) {
-			System.out.println("\nLibro: "+libros[i]+"\n");
+		for(int i = 0; i < cantidadLibros; i++) {
+			System.out.println("Libro #"+(i+1)+": "+libros[i]);
 		}
 	}
 
