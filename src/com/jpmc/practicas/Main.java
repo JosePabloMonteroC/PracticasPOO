@@ -1,5 +1,8 @@
 package com.jpmc.practicas;
 
+//En este archivo se ejecutan todas las practicas, cada practica esta guardada en su clase correspondiente, por lo que cada clase necesita un main individual
+//para poder funcionar.
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
